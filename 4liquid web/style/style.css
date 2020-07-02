@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+.header{
+	background-color: rgb(49, 143, 178);
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+}
+
+.slogan{
+	display: flex;
+	align-items: center;
+}
+
+.namePage{
+	color: #fff;
+}
+
+.header img{
+	height: 30px;
+	width: 30px;
+}
+
+nav{
+	background-image: url("../img/07cbf35c8d1d78109e08df4aee041d0c.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;	
+	font-size: 3em;
+	text-align: center;
+}
+
+.services{
+	display: flex;
+	height: 420px;
+	justify-content: space-around;
+}
+
+.code, .team, .kpi{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -10px;
+}
+
+.team{
+	margin-top: -30px;
+}
+
+.code img, .team img, .kpi img{
+	background: #fff;	
+	width: 200px;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px -7px #888888;
+}
+
+.abrTitle{
+	color: rgb(49, 134, 178);
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.srvTitle{
+	color: rgb(128, 128, 128);
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.srvDescr{
+	color: rgb(142, 132, 132);
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+	width: 140px;
+}
+
+/*---------------------------*/
+.more{
+	display: flex;
+}
+
+.web{
+	height: 300px;
+	background-image: linear-gradient(rgba(0,136,181,.8) 100%, rgba(0,0,0,.5) 100%), url("https://wallpaperaccess.com/full/314799.jpg");
+}
+
+.increase{
+	background-image: linear-gradient(rgba(0,136,181,.8) 100%, rgba(0,0,0,.5) 100%), url("https://i1.wp.com/www.gottabemobile.com/wp-content/uploads/2017/09/Note-8-main.jpg?fit=1024%2C754&ssl=1&resize=1200%2C883.59375");
+}
+
+.increase, .web{
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.more .title{
+	font-weight: bold;
+	margin: 10px;
+}
+
+
+ul li{
+	margin: 5px;
+	list-style: none;
+}
+
+/**/
+
+.tools{
+	height: 100px;
+	text-align: center;
+}
+
+.tlsTitle{
+	margin: 10px;
+}
+
+.imgTools{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	justify-content: space-around;
+}
+.imgTools img{
+	margin-top: 10px;
+	height: 50px;
+}
+
+/**/
+
+.conTitle{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.contact{
+	background-image: linear-gradient(rgba(0,136,181,.8) 100%, rgba(0,0,0,.5) 100%), url("https://i1.wp.com/www.gottabemobile.com/wp-content/uploads/2017/09/Note-8-main.jpg?fit=1024%2C754&ssl=1&resize=1200%2C883.59375");
+	height: 300px;
+	text-align: center;
+	margin-top: 20px
+}
+
+.form{
+	width: 90%;
+	margin: auto;
+}
+
+.form input{
+	margin-top: 20px;
+}
